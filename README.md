@@ -1,3 +1,3 @@
-# ceph_kernel_modules
+# ceph-dkms
 
-A simple DKMS package to help build the missing Ceph filesystem modules which are not included by default on the Raspberry Pi kernel build.
+A simple DKMS package to build the missing Ceph filesystem modules which are not included by default on the Raspberry Pi kernel build.

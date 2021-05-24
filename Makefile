@@ -8,3 +8,7 @@ builddir:
 	mkdir build
 	cp -a src build
 	cp -R debian build
+
+clean:
+	rm -rf build
+	rm ceph-dkms_*

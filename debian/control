@@ -1,0 +1,11 @@
+Source: ceph-dkms
+Maintainer: Tim <tim.j.wilkinson@gmail.com>
+Build-Depends: debhelper (>= 9),
+               dkms
+
+Package: ceph-dkms
+Architecture: all
+Section: admin
+Priority: optional
+Depends: ${misc:Depends}
+Description: DKMS to build in-kernel Ceph modules

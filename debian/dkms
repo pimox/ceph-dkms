@@ -1,5 +1,5 @@
 PACKAGE_NAME="ceph-dkms"
-PACKAGE_VERSION="0.0.1"
+PACKAGE_VERSION="0.0.2"
 
 PRE_BUILD="ceph_from_kernel.sh"
 
@@ -9,5 +9,8 @@ DEST_MODULE_LOCATION[0]="/kernel/net/ceph"
 BUILT_MODULE_NAME[1]="ceph"
 BUILT_MODULE_LOCATION[1]="src/fs/ceph/"
 DEST_MODULE_LOCATION[1]="/kernel/fs/ceph"
+BUILT_MODULE_NAME[2]="rbd"
+BUILT_MODULE_LOCATION[2]="src/drivers/block/"
+DEST_MODULE_LOCATION[2]="/kernel/drivers/block"
 
 AUTOINSTALL=yes

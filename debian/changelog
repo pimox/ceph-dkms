@@ -1,3 +1,9 @@
+ceph-dkms (0.0.2) buster; urgency=medium
+
+  * Added rbd driver
+
+ -- Tim <tim.j.wilkinson@gmail.com>  Wed, 26 May 2021 18:57:02 -0700
+
 ceph-dkms (0.0.1) buster; urgency=medium
 
   * Initial package.
